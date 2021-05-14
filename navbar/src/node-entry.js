@@ -3,9 +3,9 @@ import ReactDOMServer from "react-dom/server.js";
 import Root from "./root.component.js";
 import { ServerStyleSheets } from "@material-ui/core/styles";
 
-export const getResponseHeaders = (props) => {
+export const getResponseHeaders = props => {
   return {
-    "x-navbar": 1,
+    "x-navbar": 1
   };
 };
 

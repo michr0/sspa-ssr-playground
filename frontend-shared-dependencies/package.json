@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/isomorphic-microfrontends/frontend-shared-dependencies/issues"
   },
-  "homepage": "https://github.com/isomorphic-microfrontends/frontend-shared-dependencies#readme"
+  "homepage": "https://github.com/isomorphic-microfrontends/frontend-shared-dependencies#readme",
+  "devDependencies": {
+    "serve": "^11.3.2"
+  }
 }

@@ -2,8 +2,8 @@
   "imports": {
     "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
     "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
-    "@isomorphic-mf/navbar": "http://localhost:8080/isomorphic-mf-navbar.js",
-    "@isomorphic-mf/navbar/": "http://localhost:8080/",
+    "@isomorphic-mf/navbar": "http://localhost:9997/isomorphic-mf-navbar.js",
+    "@isomorphic-mf/navbar/": "http://localhost:9997/",
     "@isomorphic-mf/root-config": "https://storage.googleapis.com/isomorphic.microfrontends.app/root-config/016db7599625c5e00526f64850e0c845201d0f81/isomorphic-mf-root-config.js",
     "@isomorphic-mf/root-config/": "https://storage.googleapis.com/isomorphic.microfrontends.app/root-config/016db7599625c5e00526f64850e0c845201d0f81/",
     "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.3/lib/system/single-spa.min.js",

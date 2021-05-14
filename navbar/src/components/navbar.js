@@ -10,33 +10,33 @@ import IconButton from "@material-ui/core/IconButton";
 import HomeIcon from "@material-ui/icons/Home";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 1,
+    flexGrow: 1
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(2)
   },
   appTitle: {
-    flexGrow: 1,
+    flexGrow: 1
   },
   sectionButtons: {
     display: "flex",
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(2)
   },
   "@global": {
     "*::-webkit-scrollbar": {
-      width: "0.4em",
+      width: "0.4em"
     },
     "*::-webkit-scrollbar-track": {
       "box-shadow": "inset 0 0 6px rgba(0,0,0,0.00)",
-      "-webkit-box-shadow": "inset 0 0 6px rgba(0,0,0,0.00)",
+      "-webkit-box-shadow": "inset 0 0 6px rgba(0,0,0,0.00)"
     },
     "*::-webkit-scrollbar-thumb": {
       backgroundColor: theme.palette.primary.main,
-      outline: "1px solid slategrey",
-    },
-  },
+      outline: "1px solid slategrey"
+    }
+  }
 }));
 
 export default function NavBar({ title, themeChange }) {

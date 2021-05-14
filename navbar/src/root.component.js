@@ -14,8 +14,8 @@ export default function Root(props) {
     () =>
       createMuiTheme({
         palette: {
-          type: darkMode ? "dark" : "light",
-        },
+          type: darkMode ? "dark" : "light"
+        }
       }),
     [darkMode]
   );
@@ -43,7 +43,7 @@ export default function Root(props) {
       detail: !darkMode,
       bubbles: true,
       cancelable: false,
-      composed: true, // makes the event jump shadow DOM boundary); */
+      composed: true // makes the event jump shadow DOM boundary); */
     });
     inputRef.current.dispatchEvent(event);
     setDarkMode(!darkMode);
