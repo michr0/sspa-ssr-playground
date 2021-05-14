@@ -1,0 +1,20 @@
+{
+  "name": "frontend-shared-dependencies",
+  "version": "1.0.0",
+  "description": "An import map used in the browser of shared dependencies for isomorphic microfrontends",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve -l 9998"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isomorphic-microfrontends/frontend-shared-dependencies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isomorphic-microfrontends/frontend-shared-dependencies/issues"
+  },
+  "homepage": "https://github.com/isomorphic-microfrontends/frontend-shared-dependencies#readme"
+}

@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
+    "@isomorphic-mf/navbar": "http://localhost:8080/isomorphic-mf-navbar.js",
+    "@isomorphic-mf/navbar/": "http://localhost:8080/",
+    "@isomorphic-mf/root-config": "https://storage.googleapis.com/isomorphic.microfrontends.app/root-config/016db7599625c5e00526f64850e0c845201d0f81/isomorphic-mf-root-config.js",
+    "@isomorphic-mf/root-config/": "https://storage.googleapis.com/isomorphic.microfrontends.app/root-config/016db7599625c5e00526f64850e0c845201d0f81/",
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.3/lib/system/single-spa.min.js",
+    "@isomorphic-mf/pokemons": "https://storage.googleapis.com/isomorphic.microfrontends.app/pokemons/958ebf94c1a2ba3c8abff50ba334b04e30bfbde5/isomorphic-mf-pokemons.js",
+    "@isomorphic-mf/pokemons/": "https://storage.googleapis.com/isomorphic.microfrontends.app/pokemons/958ebf94c1a2ba3c8abff50ba334b04e30bfbde5/"
+  }
+}
